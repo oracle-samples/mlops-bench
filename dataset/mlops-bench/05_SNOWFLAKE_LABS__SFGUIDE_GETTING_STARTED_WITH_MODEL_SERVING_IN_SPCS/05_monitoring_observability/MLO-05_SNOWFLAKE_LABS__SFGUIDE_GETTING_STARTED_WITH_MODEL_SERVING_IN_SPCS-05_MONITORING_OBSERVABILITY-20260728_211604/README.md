@@ -1,0 +1,5 @@
+# MLO-05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS-05_MONITORING_OBSERVABILITY-20260728_211604
+
+Hard stage-specific contract benchmark for `05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS` / `MONITORING_OBSERVABILITY`.
+
+Implement `mlops_bench_contracts.monitoring_gate.evaluate_observability_window` in `mlops_bench_contracts/monitoring_gate.py`.

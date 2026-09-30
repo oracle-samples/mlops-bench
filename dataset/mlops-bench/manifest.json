@@ -1,0 +1,53 @@
+{
+  "suite": "mlops-bench",
+  "stages": {
+    "01_data_pipeline": {
+      "tasks": 31,
+      "f2p": 93,
+      "p2p": 120,
+      "total": 213
+    },
+    "02_feature_engineering": {
+      "tasks": 30,
+      "f2p": 90,
+      "p2p": 118,
+      "total": 208
+    },
+    "03_model_training": {
+      "tasks": 29,
+      "f2p": 87,
+      "p2p": 106,
+      "total": 193
+    },
+    "04_model_serving": {
+      "tasks": 31,
+      "f2p": 93,
+      "p2p": 134,
+      "total": 227
+    },
+    "05_monitoring_observability": {
+      "tasks": 31,
+      "f2p": 93,
+      "p2p": 130,
+      "total": 223
+    },
+    "06_cicd_governance": {
+      "tasks": 31,
+      "f2p": 93,
+      "p2p": 123,
+      "total": 216
+    },
+    "07_e2e_full_mlops_flow": {
+      "tasks": 29,
+      "f2p": 87,
+      "p2p": 125,
+      "total": 212
+    }
+  },
+  "totals": {
+    "tasks": 212,
+    "f2p": 636,
+    "p2p": 856,
+    "total": 1492
+  }
+}
