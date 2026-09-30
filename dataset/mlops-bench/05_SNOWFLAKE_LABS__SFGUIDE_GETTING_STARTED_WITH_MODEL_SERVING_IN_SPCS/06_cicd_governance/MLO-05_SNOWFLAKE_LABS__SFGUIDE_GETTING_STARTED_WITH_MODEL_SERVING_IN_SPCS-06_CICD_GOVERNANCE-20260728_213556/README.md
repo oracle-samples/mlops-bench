@@ -1,0 +1,5 @@
+# MLO-05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS-06_CICD_GOVERNANCE-20260728_213556
+
+Hard stage-specific contract benchmark for `05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS` / `CICD_GOVERNANCE`.
+
+Implement `mlops_bench_contracts.release_gate.evaluate_release_manifest` in `mlops_bench_contracts/release_gate.py`.
