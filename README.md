@@ -91,6 +91,4 @@ Please consult the [security guide](./SECURITY.md) for our responsible security 
 
 Copyright (c) 2026 Oracle and/or its affiliates.
 
-*Replace this statement if your project is not licensed under the UPL*
-
-Released under [Apache License version 2.0](LICENSE)
+Released under the [Apache License version 2.0](LICENSE)
