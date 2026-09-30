@@ -79,17 +79,6 @@ TASK=dataset/mlops-bench/01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI/01_data_pi
 (cd "$TASK/oracle" && python -m pytest -q tests/test_stage_contract.py)
 ```
 
-## Provenance and licensing
-
-`dataset/metadata/SOURCE_REPOSITORIES.tsv` records every included upstream
-repository, pinned commit, license text, and applicable notice. Corresponding
-Apache-2.0 license texts are stored in `dataset/metadata/third_party_licenses/`
-and required notices are stored in `dataset/metadata/upstream_notices/`.
-
-Oracle-authored repository material is released under the
-[Apache License, Version 2.0](./LICENSE.txt). Upstream material
-retains the licenses and notices recorded in the dataset metadata.
-
 ## Contributing
 
 *If your project has specific contribution requirements, update the CONTRIBUTING.md file to ensure those requirements are clearly explained*
