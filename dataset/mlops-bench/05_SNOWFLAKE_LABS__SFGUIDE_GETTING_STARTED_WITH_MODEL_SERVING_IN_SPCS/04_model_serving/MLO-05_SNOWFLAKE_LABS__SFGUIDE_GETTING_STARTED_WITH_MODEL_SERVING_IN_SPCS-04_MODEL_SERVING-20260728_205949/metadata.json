@@ -18,10 +18,10 @@
     "stage_specific_variant_a",
     "stage_specific_variant_b"
   ],
-  "f2p_test_count": 44,
+  "f2p_test_count": 3,
   "harder_v2_contract": true,
   "instance_id": "MLO-05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS-04_MODEL_SERVING-20260728_205949",
-  "p2p_test_count": 6,
+  "p2p_test_count": 5,
   "prompt_surface": "public_api_preserved_action_taxonomy_explicit_stage_logic_implicit",
   "repo_key": "05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS",
   "selective_edge_hidden_f2p_tests": [

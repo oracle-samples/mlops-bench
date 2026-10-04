@@ -18,10 +18,10 @@
     "stage_specific_variant_a",
     "stage_specific_variant_b"
   ],
-  "f2p_test_count": 21,
+  "f2p_test_count": 3,
   "harder_v2_contract": true,
   "instance_id": "MLO-27_BENTOML__BENTOML-03_MODEL_TRAINING-20260729_012616",
-  "p2p_test_count": 6,
+  "p2p_test_count": 3,
   "prompt_surface": "public_api_preserved_action_taxonomy_explicit_stage_logic_implicit",
   "repo_key": "27_BENTOML__BENTOML",
   "selective_edge_hidden_f2p_tests": [
