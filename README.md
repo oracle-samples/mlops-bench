@@ -14,10 +14,12 @@ limitations under the License.
 
 # MLOps Bench
 
-MLOps Bench is a self-contained, executable benchmark suite for evaluating
-coding agents on MLOps-stage engineering contracts. Each task provides a
-natural-language specification, a starting task workspace, a buggy baseline,
-an oracle implementation, and executable evaluation tests.
+MLOps Bench is a self-contained benchmark suite for evaluating coding agents
+on MLOps-stage engineering contracts. Each task provides a natural-language
+specification, a starting task workspace, a buggy baseline, an oracle
+implementation, and executable evaluation tests. The repository does not
+provide a top-level benchmark runner; the released task workspaces are designed
+to be exercised individually or by a compatible external harness.
 
 The suite covers data pipelines, feature engineering, model training, model
 serving, monitoring and observability, CI/CD and governance, and end-to-end
@@ -90,8 +92,9 @@ python -m pip install --upgrade pip pytest
 
 ## Usage
 
-The dataset is ready to inspect without a compilation step. Locate tasks by
-repository, MLOps stage, and instance ID:
+The dataset is ready to inspect without a compilation step. It does not ship a
+top-level evaluation command; locate tasks by repository, MLOps stage, and
+instance ID:
 
 ```text
 dataset/mlops-bench/<repository>/<stage>/<instance>/
