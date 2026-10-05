@@ -18,10 +18,10 @@
     "stage_specific_variant_a",
     "stage_specific_variant_b"
   ],
-  "f2p_test_count": 44,
+  "f2p_test_count": 3,
   "harder_v2_contract": true,
   "instance_id": "MLO-21_ZENML_IO__ZENML-07_E2E_FULL_MLOPS_FLOW-20260729_010323",
-  "p2p_test_count": 6,
+  "p2p_test_count": 4,
   "prompt_surface": "public_api_preserved_action_taxonomy_explicit_stage_logic_implicit",
   "repo_key": "21_ZENML_IO__ZENML",
   "selective_edge_hidden_f2p_tests": [

@@ -14,9 +14,48 @@ limitations under the License.
 
 # MLOps Bench
 
-MLOps Bench is a dataset of repository-grounded MLOps engineering tasks for
-evaluating coding agents. Each task includes a problem statement, a repository
-snapshot, a buggy baseline, an oracle implementation, and evaluation tests.
+MLOps Bench is a self-contained benchmark suite for evaluating coding agents
+on MLOps-stage engineering contracts. Each task provides a natural-language
+specification, a starting task workspace, a buggy baseline, an oracle
+implementation, and executable evaluation tests. The repository does not
+provide a top-level benchmark runner; the released task workspaces are designed
+to be exercised individually or by a compatible external harness.
+
+The suite covers data pipelines, feature engineering, model training, model
+serving, monitoring and observability, CI/CD and governance, and end-to-end
+MLOps flow. The accompanying source-project inventory records public project
+URLs, pinned commits, and license material used during benchmark construction.
+The released task workspaces are self-contained benchmark artifacts; they are
+not redistributions of the upstream project source trees.
+
+## Research paper
+
+This repository is the companion artifact for the manuscript:
+
+> Quoc Co Tran, Hitesh Laxmichand Patel, Diwakar Mahajan, Kshitij Bakliwal,
+> Avi Sil, and Katrin Kirchhoff. 2026. *MLOps-Bench: Benchmarking AI Agents on
+> Production ML Engineering in Real Repositories.*
+
+The paper describes the benchmark motivation, task-construction protocol, human
+audits, and agent evaluation methodology. Until archival venue metadata is
+available, please cite the work as a manuscript:
+
+```bibtex
+@misc{tran2026mlopsbench,
+  title = {MLOps-Bench: Benchmarking AI Agents on Production ML Engineering in Real Repositories},
+  author = {Quoc Co Tran and Hitesh Laxmichand Patel and Diwakar Mahajan and Kshitij Bakliwal and Avi Sil and Katrin Kirchhoff},
+  year = {2026},
+  note = {Manuscript}
+}
+```
+
+## Reproducibility and test counts
+
+F2P and P2P counts refer to public `test_*` functions in each task's
+`tests/test_f2p.py` and `tests/test_p2p.py` files, respectively. The task-level
+`f2p_test_count` and `p2p_test_count` metadata fields use the same convention.
+The auxiliary oracle contract tests under `oracle/tests/` are intentionally not
+included in the published F2P/P2P totals.
 
 ## Contents
 
@@ -44,7 +83,7 @@ required to use the dataset.
 Clone the repository and install the test runner in an isolated environment:
 
 ```bash
-git clone https://github.com/oracle/mlops-bench.git
+git clone https://github.com/oracle-samples/mlops-bench.git
 cd mlops-bench
 python3 -m venv .venv
 . .venv/bin/activate
@@ -53,8 +92,9 @@ python -m pip install --upgrade pip pytest
 
 ## Usage
 
-The dataset is ready to inspect without a compilation step. Locate tasks by
-repository, MLOps stage, and instance ID:
+The dataset is ready to inspect without a compilation step. It does not ship a
+top-level evaluation command; locate tasks by repository, MLOps stage, and
+instance ID:
 
 ```text
 dataset/mlops-bench/<repository>/<stage>/<instance>/
@@ -64,7 +104,7 @@ A task includes the following material:
 
 ```text
 problem.json              # task statement and requirements
-repo/                     # starting repository snapshot
+repo/                     # starting task workspace
 buggy/                    # intentionally incomplete baseline
 oracle/                   # reference implementation
 tests/test_f2p.py         # fail-to-pass evaluation tests
