@@ -25,6 +25,14 @@ workspaces can be inspected individually or evaluated with a compatible
 external harness. They are self-contained benchmark artifacts, not
 redistributions of the upstream project source trees.
 
+The paper's construction and evaluation pipeline is shown below. It summarizes
+the benchmark workflow, not a bundled command-line runner.
+
+<p align="center">
+  <img src="docs/images/mlops-bench-construction-and-evaluation.png" alt="MLOps-Bench construction and evaluation pipeline: repository evidence is converted into a task, oracle and buggy implementations, and behavioral tests before an agent patch is scored." width="100%">
+</p>
+<p align="center"><em>Figure 1. MLOps-Bench construction and evaluation pipeline. Source: companion manuscript.</em></p>
+
 ## Links
 
 - [Task corpus](dataset/mlops-bench/)
@@ -123,6 +131,19 @@ F2P and P2P counts refer to public `test_*` functions in each task's
 `f2p_test_count` and `p2p_test_count` metadata fields use the same convention.
 The auxiliary oracle contract tests under `oracle/tests/` are intentionally not
 included in the published F2P/P2P totals.
+
+<details>
+<summary><strong>Illustrative agent outcomes from the paper</strong></summary>
+
+<br>
+
+<p align="center">
+  <img src="docs/images/mlops-bench-passing-example.png" alt="Passing example from the MLOps-Bench paper, showing a Codex patch that satisfies the task contract." width="49%">
+  <img src="docs/images/mlops-bench-failing-example.png" alt="Failing example from the MLOps-Bench paper, showing an incorrect Codex patch that does not satisfy the task contract." width="49%">
+</p>
+<p align="center"><em>Figure 3. Passing and failing agent outcomes reported in the companion manuscript. These examples illustrate behavioral evaluation, not a bundled user interface or runner.</em></p>
+
+</details>
 
 ## Reproducibility and provenance
 
