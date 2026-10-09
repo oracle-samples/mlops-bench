@@ -104,7 +104,6 @@ Each task contains the following core material:
 | `tests/test_f2p.py` | Tests for newly required behavior |
 | `tests/test_p2p.py` | Tests for behavior that must remain stable |
 | `metadata.json` | Task metadata, including published F2P/P2P counts |
-| `expected_changes.patch` | Reference patch artifact |
 
 To validate a selected task's oracle contract, run `pytest` from its
 `oracle/` directory. For example:
