@@ -11,19 +11,22 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+<img src="docs/images/mlops-bench-oracle-red.png" height="150">
 
-# MLOps-Bench
 
-MLOps-Bench evaluates coding agents on repository-grounded MLOps engineering
-changes. Each task provides a natural-language specification, a starting task
-workspace, a buggy baseline, an oracle implementation, and executable
-evaluation tests. Fail-to-pass (F2P) tests check newly required behavior, while
-pass-to-pass (P2P) tests protect existing behavior.
+**[EMNLP 2026]** MLOps-Bench: Benchmarking AI Agents on Production ML Engineering in Real Repositories
 
 <p align="center">
   <img src="docs/images/mlops-bench-construction-and-evaluation.png" alt="MLOps-Bench construction and evaluation pipeline: repository evidence is converted into a task, oracle and buggy implementations, and behavioral tests before an agent patch is scored." width="100%">
 </p>
 <p align="center"><em>Figure 1. MLOps-Bench construction and evaluation pipeline. Source: companion manuscript.</em></p>
+
+## Overview
+MLOps-Bench evaluates coding agents on repository-grounded MLOps engineering
+changes. Each task provides a natural-language specification, a starting task
+workspace, a buggy baseline, an oracle implementation, and executable
+evaluation tests. Fail-to-pass (F2P) tests check newly required behavior, while
+pass-to-pass (P2P) tests protect existing behavior.
 
 ## Links
 
