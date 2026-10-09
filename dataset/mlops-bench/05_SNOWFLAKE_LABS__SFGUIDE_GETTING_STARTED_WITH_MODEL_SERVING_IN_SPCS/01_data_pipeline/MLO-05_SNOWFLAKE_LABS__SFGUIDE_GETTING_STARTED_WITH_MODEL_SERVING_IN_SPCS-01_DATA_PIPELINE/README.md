@@ -1,0 +1,5 @@
+# MLO-05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS-01_DATA_PIPELINE
+
+Hard stage-specific contract benchmark for `05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS` / `DATA_PIPELINE`.
+
+Implement `mlops_bench_contracts.data_pipeline_gate.validate_dataset_contract` in `mlops_bench_contracts/data_pipeline_gate.py`.

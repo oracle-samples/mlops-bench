@@ -1,5 +1,0 @@
-# MLO-12_AWS_SOLUTIONS__MAINTAINING_PERSONALIZED_EXPERIENCES_WITH_MACHINE_LEARNING-05_MONITORING_OBSERVABILITY-20260729_052551
-
-Hard stage-specific contract benchmark for `12_AWS_SOLUTIONS__MAINTAINING_PERSONALIZED_EXPERIENCES_WITH_MACHINE_LEARNING` / `MONITORING_OBSERVABILITY`.
-
-Implement `mlops_bench_contracts.monitoring_gate.evaluate_observability_window` in `mlops_bench_contracts/monitoring_gate.py`.

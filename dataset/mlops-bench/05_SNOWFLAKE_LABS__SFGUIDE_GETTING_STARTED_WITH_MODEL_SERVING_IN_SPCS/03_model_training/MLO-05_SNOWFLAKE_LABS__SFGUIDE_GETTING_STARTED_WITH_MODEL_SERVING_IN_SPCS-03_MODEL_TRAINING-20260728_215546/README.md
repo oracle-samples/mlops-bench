@@ -1,5 +1,0 @@
-# MLO-05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS-03_MODEL_TRAINING-20260728_215546
-
-Hard stage-specific contract benchmark for `05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS` / `MODEL_TRAINING`.
-
-Implement `mlops_bench_contracts.training_gate.evaluate_training_run` in `mlops_bench_contracts/training_gate.py`.
