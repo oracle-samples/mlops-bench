@@ -148,7 +148,7 @@ materials are available under
 
 ## Citation
 
-Please cite the work as a manuscript:
+If you use MLOps-Bench, please cite the work:
 
 ```bibtex
 @misc{tran2026mlopsbench,
