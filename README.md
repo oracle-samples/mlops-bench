@@ -133,7 +133,7 @@ included in the published F2P/P2P totals.
   <img src="docs/images/mlops-bench-passing-example.png" alt="Passing example from the MLOps-Bench paper, showing a Codex patch that satisfies the task contract." width="49%">
   <img src="docs/images/mlops-bench-failing-example.png" alt="Failing example from the MLOps-Bench paper, showing an incorrect Codex patch that does not satisfy the task contract." width="49%">
 </p>
-<p align="center"><em>Figure 3. Passing and failing agent outcomes reported in the companion manuscript. These examples illustrate behavioral evaluation, not a bundled user interface or runner.</em></p>
+<p align="center"><em>Figure 2. Passing and failing agent outcomes reported in the companion manuscript. These examples illustrate behavioral evaluation, not a bundled user interface or runner.</em></p>
 
 </details>
 
@@ -146,17 +146,9 @@ applicable upstream notices. The corresponding third-party license and notice
 materials are available under
 [`dataset/metadata/`](dataset/metadata/).
 
-## Research paper
+## Citation
 
-This repository is the companion artifact for the manuscript:
-
-> Quoc Co Tran, Hitesh Laxmichand Patel, Diwakar Mahajan, Kshitij Bakliwal,
-> Avi Sil, and Katrin Kirchhoff. 2026. *MLOps-Bench: Benchmarking AI Agents on
-> Production ML Engineering in Real Repositories.*
-
-The paper describes the benchmark motivation, task-construction protocol, human
-audits, and agent evaluation methodology. Until archival venue metadata is
-available, please cite the work as a manuscript:
+Please cite the work as a manuscript:
 
 ```bibtex
 @misc{tran2026mlopsbench,
