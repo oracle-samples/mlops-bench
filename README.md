@@ -20,14 +20,6 @@ workspace, a buggy baseline, an oracle implementation, and executable
 evaluation tests. Fail-to-pass (F2P) tests check newly required behavior, while
 pass-to-pass (P2P) tests protect existing behavior.
 
-The repository does not provide a top-level benchmark runner. Released task
-workspaces can be inspected individually or evaluated with a compatible
-external harness. They are self-contained benchmark artifacts, not
-redistributions of the upstream project source trees.
-
-The paper's construction and evaluation pipeline is shown below. It summarizes
-the benchmark workflow, not a bundled command-line runner.
-
 <p align="center">
   <img src="docs/images/mlops-bench-construction-and-evaluation.png" alt="MLOps-Bench construction and evaluation pipeline: repository evidence is converted into a task, oracle and buggy implementations, and behavioral tests before an agent patch is scored." width="100%">
 </p>
