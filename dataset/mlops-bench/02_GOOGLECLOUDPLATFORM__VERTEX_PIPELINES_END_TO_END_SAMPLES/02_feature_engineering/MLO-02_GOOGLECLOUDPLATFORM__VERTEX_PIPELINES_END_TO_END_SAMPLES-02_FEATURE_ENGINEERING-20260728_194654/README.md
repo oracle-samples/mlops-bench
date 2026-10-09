@@ -1,5 +1,0 @@
-# MLO-02_GOOGLECLOUDPLATFORM__VERTEX_PIPELINES_END_TO_END_SAMPLES-02_FEATURE_ENGINEERING-20260728_194654
-
-Hard stage-specific contract benchmark for `02_GOOGLECLOUDPLATFORM__VERTEX_PIPELINES_END_TO_END_SAMPLES` / `FEATURE_ENGINEERING`.
-
-Implement `mlops_bench_contracts.feature_parity.build_feature_parity_report` in `mlops_bench_contracts/feature_parity.py`.

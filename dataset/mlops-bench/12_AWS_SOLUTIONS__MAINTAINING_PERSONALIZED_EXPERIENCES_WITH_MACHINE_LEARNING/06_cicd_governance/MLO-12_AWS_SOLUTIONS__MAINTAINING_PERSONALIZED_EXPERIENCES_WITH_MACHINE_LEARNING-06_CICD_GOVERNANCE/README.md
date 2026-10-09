@@ -1,0 +1,5 @@
+# MLO-12_AWS_SOLUTIONS__MAINTAINING_PERSONALIZED_EXPERIENCES_WITH_MACHINE_LEARNING-06_CICD_GOVERNANCE
+
+Hard stage-specific contract benchmark for `12_AWS_SOLUTIONS__MAINTAINING_PERSONALIZED_EXPERIENCES_WITH_MACHINE_LEARNING` / `CICD_GOVERNANCE`.
+
+Implement `mlops_bench_contracts.release_gate.evaluate_release_manifest` in `mlops_bench_contracts/release_gate.py`.

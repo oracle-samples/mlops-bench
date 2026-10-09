@@ -110,7 +110,7 @@ To validate a selected task's oracle contract, run `pytest` from its
 `oracle/` directory. For example:
 
 ```bash
-TASK=dataset/mlops-bench/01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI/01_data_pipeline/MLO-01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI-01_DATA_PIPELINE-20260728_194731
+TASK=dataset/mlops-bench/01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI/01_data_pipeline/MLO-01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI-01_DATA_PIPELINE
 (cd "$TASK/oracle" && python -m pytest -q tests/test_stage_contract.py)
 ```
 
