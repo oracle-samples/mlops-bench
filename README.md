@@ -102,15 +102,15 @@ oracle and other construction artifacts.
 
 ### Great Expectations · Model-serving release gate
 
-[Task overview](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING/README.md)
+[Task overview](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING-20260729_011238/README.md)
 ·
-[problem specification](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING/problem.json)
+[problem specification](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING-20260729_011238/problem.json)
 ·
-[starting workspace](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING/repo/mlops_bench_contracts/serving_gate.py)
+[starting workspace](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING-20260729_011238/repo/mlops_bench_contracts/serving_gate.py)
 ·
-[F2P tests](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING/tests/test_f2p.py)
+[F2P tests](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING-20260729_011238/tests/test_f2p.py)
 ·
-[P2P tests](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING/tests/test_p2p.py)
+[P2P tests](dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING-20260729_011238/tests/test_p2p.py)
 
 | 🧭 Production request | 🛠️ Agent change | ✅ Behavioral proof |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ The following commands inspect the model-serving task above, then validate the
 reference contract and its public behavioral suite:
 
 ```bash
-TASK=dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING
+TASK=dataset/mlops-bench/25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS/04_model_serving/MLO-25_GREAT_EXPECTATIONS__GREAT_EXPECTATIONS-04_MODEL_SERVING-20260729_011238
 
 sed -n '1,180p' "$TASK/README.md"
 
