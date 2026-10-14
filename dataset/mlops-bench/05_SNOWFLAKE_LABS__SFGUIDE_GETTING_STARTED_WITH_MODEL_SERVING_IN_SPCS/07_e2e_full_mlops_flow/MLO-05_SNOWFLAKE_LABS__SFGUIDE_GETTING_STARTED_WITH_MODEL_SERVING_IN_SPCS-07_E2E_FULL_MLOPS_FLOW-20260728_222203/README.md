@@ -1,5 +1,0 @@
-# MLO-05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS-07_E2E_FULL_MLOPS_FLOW-20260728_222203
-
-Hard stage-specific contract benchmark for `05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS` / `E2E_FULL_MLOPS_FLOW`.
-
-Implement `mlops_bench_contracts.e2e_flow_gate.evaluate_mlops_release_flow` in `mlops_bench_contracts/e2e_flow_gate.py`.

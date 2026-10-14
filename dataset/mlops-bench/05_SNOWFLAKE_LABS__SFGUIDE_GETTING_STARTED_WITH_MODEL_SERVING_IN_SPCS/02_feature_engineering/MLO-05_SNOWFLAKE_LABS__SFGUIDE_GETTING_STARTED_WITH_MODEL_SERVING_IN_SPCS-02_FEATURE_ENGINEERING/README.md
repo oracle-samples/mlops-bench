@@ -1,0 +1,5 @@
+# MLO-05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS-02_FEATURE_ENGINEERING
+
+Hard stage-specific contract benchmark for `05_SNOWFLAKE_LABS__SFGUIDE_GETTING_STARTED_WITH_MODEL_SERVING_IN_SPCS` / `FEATURE_ENGINEERING`.
+
+Implement `mlops_bench_contracts.feature_parity.build_feature_parity_report` in `mlops_bench_contracts/feature_parity.py`.
