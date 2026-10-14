@@ -15,7 +15,7 @@ limitations under the License.
   <img src="docs/images/mlops-bench-oracle-red.png" height="132" alt="Oracle logo">
 </p>
 <p align="center"><strong>Findings of EMNLP 2026 (forthcoming)</strong></p>
-<h1 align="center">MLOps-Bench</h1>
+<h1 align="center"></h1>
 <p align="center"><em>Benchmarking AI agents on production ML engineering in real repositories</em></p>
 
 <p align="center">
@@ -24,8 +24,6 @@ limitations under the License.
   <a href="https://github.com/oracle-samples/mlops-bench"><img src="https://img.shields.io/badge/Code-GitHub-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Code on GitHub"></a>
   <a href="#five-minute-quick-start"><img src="https://img.shields.io/badge/Docs-Quick%20start-5B4BFF?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation and quick start"></a>
 </p>
-
-<p align="center"><sub>The paper badge links to the citable record below until the official proceedings page is available.</sub></p>
 
 ## 🎯 Can AI agents make reliable production ML changes—not just write ML code?
 
@@ -135,6 +133,7 @@ The released starting workspace intentionally fails the new behavior
 implementation passes the public suite (7/7) and the full oracle contract
 (44/44). Correctness is behavioral: an agent does not need to reproduce the
 oracle patch to produce a valid solution.
+<a name="five-minute-quick-start"></a>
 
 ## ⚡ Five-minute quick start
 
@@ -287,6 +286,8 @@ applicable upstream notices. The corresponding third-party license and notice
 materials are available under
 [`dataset/metadata/`](dataset/metadata/).
 
+
+<a name="citation"></a>
 ## 📖 Citation
 
 If you use MLOps-Bench, please cite the work:
@@ -301,8 +302,6 @@ If you use MLOps-Bench, please cite the work:
   note = {To appear}
 }
 ```
-
-The official proceedings record will be linked here when it is available.
 
 ## 🤝 Contributing
 
