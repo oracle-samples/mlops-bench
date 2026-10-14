@@ -98,19 +98,30 @@ Each task contains the following core material:
 | Path | Purpose |
 | --- | --- |
 | `README.md` and `problem.json` | Task statement and requirements |
-| `repo/` | Starting task workspace |
-| `buggy/` | Intentionally incomplete baseline |
-| `oracle/` | Reference implementation and oracle contract test |
+| `repo/` | Frozen starting workspace materialized as the agent's editable repository |
+| `buggy/` | Separate plausible but incomplete baseline used to validate F2P tests |
+| `oracle/` | Reference implementation and oracle contract test used to establish feasibility |
 | `tests/test_f2p.py` | Tests for newly required behavior |
 | `tests/test_p2p.py` | Tests for behavior that must remain stable |
 | `metadata.json` | Task metadata, including published F2P/P2P counts |
-| `expected_changes.patch` | Reference patch artifact |
+| `expected_changes.patch` | Oracle implementation patch applied to `repo/`; a construction and validation artifact, not an expected agent answer |
+
+### Evaluation isolation
+
+For a benchmark run, an evaluator materializes `repo/` as the editable
+repository and constructs the agent prompt from the task specification.
+`buggy/` is a separate incomplete baseline, not the patch base.
+Evaluators must not expose, mount, or copy `oracle/`, `buggy/`,
+`expected_changes.patch`, repository-analysis metadata, validation feedback, or
+generator retry traces into the agent environment. The agent-produced patch is
+scored with the behavioral F2P and P2P tests; a correct solution need not match
+the oracle patch.
 
 To validate a selected task's oracle contract, run `pytest` from its
 `oracle/` directory. For example:
 
 ```bash
-TASK=dataset/mlops-bench/01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI/01_data_pipeline/MLO-01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI-01_DATA_PIPELINE-20260728_194731
+TASK=dataset/mlops-bench/01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI/01_data_pipeline/MLO-01_GOOGLECLOUDPLATFORM__MLOPS_WITH_VERTEX_AI-01_DATA_PIPELINE
 (cd "$TASK/oracle" && python -m pytest -q tests/test_stage_contract.py)
 ```
 

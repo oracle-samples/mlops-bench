@@ -1,0 +1,5 @@
+# MLO-02_GOOGLECLOUDPLATFORM__VERTEX_PIPELINES_END_TO_END_SAMPLES-05_MONITORING_OBSERVABILITY
+
+Hard stage-specific contract benchmark for `02_GOOGLECLOUDPLATFORM__VERTEX_PIPELINES_END_TO_END_SAMPLES` / `MONITORING_OBSERVABILITY`.
+
+Implement `mlops_bench_contracts.monitoring_gate.evaluate_observability_window` in `mlops_bench_contracts/monitoring_gate.py`.
