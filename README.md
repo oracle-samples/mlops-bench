@@ -14,7 +14,7 @@ limitations under the License.
 <p align="center">
   <img src="docs/images/mlops-bench-oracle-red.png" height="132" alt="Oracle logo">
 </p>
-<p align="center"><strong>Findings of EMNLP 2026 (forthcoming)</strong></p>
+<p align="center"><strong> Empirical Methods in Natural Language Processing EMNLP 2026, Findings</strong></p>
 <h1 align="center"></h1>
 <p align="center"><em>Benchmarking AI agents on production ML engineering in real repositories</em></p>
 
