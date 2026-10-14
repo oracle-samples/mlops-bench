@@ -14,12 +14,12 @@ limitations under the License.
 <p align="center">
   <img src="docs/images/mlops-bench-oracle-red.png" height="132" alt="Oracle logo">
 </p>
-<p align="center"><strong>Findings of EMNLP 2026 (forthcoming)</strong></p>
+<p align="center"><strong> EMNLP 2026 (Findings) </strong></p>
 <h1 align="center"></h1>
 <p align="center"><em>Benchmarking AI agents on production ML engineering in real repositories</em></p>
 
 <p align="center">
-  <a href="#citation"><img src="https://img.shields.io/badge/Paper-EMNLP%202026%20Findings-C74634?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Paper: Findings of EMNLP 2026, forthcoming"></a>
+  <a href="#citation"><img src="https://img.shields.io/badge/Paper-EMNLP%202026%20Findings-C74634?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Paper: EMNLP 2026 (Findings)"></a>
   <a href="dataset/mlops-bench/"><img src="https://img.shields.io/badge/Dataset-212%20tasks-1F6FEB?style=for-the-badge&logo=databricks&logoColor=white" alt="Dataset: 212 benchmark tasks"></a>
   <a href="https://github.com/oracle-samples/mlops-bench"><img src="https://img.shields.io/badge/Code-GitHub-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Code on GitHub"></a>
   <a href="#five-minute-quick-start"><img src="https://img.shields.io/badge/Docs-Quick%20start-5B4BFF?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation and quick start"></a>
@@ -296,7 +296,7 @@ If you use MLOps-Bench, please cite the work:
 @inproceedings{tran-etal-2026-mlops-bench,
   title = {{MLOps}-{B}ench: Benchmarking {AI} Agents on Production {ML} Engineering in Real Repositories},
   author = {Tran, Quoc Co and Patel, Hitesh Laxmichand and Mahajan, Diwakar and Bakliwal, Kshitij and Sil, Avi and Kirchhoff, Katrin},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  booktitle = {Empirical Methods in Natural Language Processing EMNLP 2026, Findings},
   year = {2026},
   publisher = {Association for Computational Linguistics},
   note = {To appear}
