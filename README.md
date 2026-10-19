@@ -14,11 +14,11 @@ limitations under the License.
 <p align="center">
   <img src="docs/images/mlops-bench-oracle-red.png" height="132" alt="Oracle logo">
 </p>
-<p align="center"><strong>EMNLP 2026 (Findings)</strong></p>
 <h1 align="center"></h1>
 <p align="center"><em>Benchmarking AI agents on production ML engineering in real repositories</em></p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/EMNLP%202026%20%28Findings%29-C74634?style=for-the-badge" alt="EMNLP 2026 (Findings)">
   <a href="https://arxiv.org/abs/2610.23506"><img src="https://img.shields.io/badge/Paper-arXiv%3A2610.23506-C74634?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper on arXiv: 2610.23506"></a>
   <a href="dataset/mlops-bench/"><img src="https://img.shields.io/badge/Dataset-212%20tasks-1F6FEB?style=for-the-badge&logo=databricks&logoColor=white" alt="Dataset: 212 benchmark tasks"></a>
   <a href="https://github.com/oracle-samples/mlops-bench"><img src="https://img.shields.io/badge/Code-GitHub-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Code on GitHub"></a>
