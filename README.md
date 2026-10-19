@@ -19,7 +19,7 @@ limitations under the License.
 <p align="center"><em>Benchmarking AI agents on production ML engineering in real repositories</em></p>
 
 <p align="center">
-  <a href="#citation"><img src="https://img.shields.io/badge/Paper-EMNLP%202026%20%28Findings%29-C74634?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Paper: EMNLP 2026 (Findings)"></a>
+  <a href="https://arxiv.org/abs/2610.23506"><img src="https://img.shields.io/badge/Paper-arXiv%3A2610.23506-C74634?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper on arXiv: 2610.23506"></a>
   <a href="dataset/mlops-bench/"><img src="https://img.shields.io/badge/Dataset-212%20tasks-1F6FEB?style=for-the-badge&logo=databricks&logoColor=white" alt="Dataset: 212 benchmark tasks"></a>
   <a href="https://github.com/oracle-samples/mlops-bench"><img src="https://img.shields.io/badge/Code-GitHub-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Code on GitHub"></a>
   <a href="#five-minute-quick-start"><img src="https://img.shields.io/badge/Docs-Quick%20start-5B4BFF?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation and quick start"></a>
@@ -195,7 +195,7 @@ production engineering task.
 | Base agent | GPT-5.5 | 16.9% | 47.9% |
 | Base agent | GPT-5.2 | 13.4% | 31.4% |
 
-<sub>Values reproduce Table 6 of the companion paper. The official proceedings link will be added when it is available.</sub>
+<sub>Values reproduce Table 6 of the <a href="https://arxiv.org/abs/2610.23506">paper</a>.</sub>
 
 ## 🧱 Work with a task
 
@@ -287,6 +287,7 @@ If you use MLOps-Bench, please cite the work:
   booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing ({EMNLP}, Findings)},
   year = {2026},
   publisher = {Association for Computational Linguistics},
+  url = {https://arxiv.org/abs/2610.23506},
   note = {To appear}
 }
 ```
