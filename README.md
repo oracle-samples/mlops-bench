@@ -60,9 +60,9 @@ All totals are recorded in the [dataset manifest](dataset/mlops-bench/manifest.j
 ## 🔄 One benchmark, across the ML lifecycle
 
 <p align="center">
-  <img src="docs/images/mlops-bench-lifecycle.png" alt="Six ML stages covered by MLOps-Bench: data pipelines, feature engineering, model training, model serving, monitoring, and CI/CD and governance, with end-to-end lifecycle integration across all stages." width="100%">
+  <img src="docs/images/mlops-bench-lifecycle.png" alt="Circular MLOps lifecycle: data pipelines, feature engineering, model training, model serving, monitoring, and CI/CD and governance." width="400">
 </p>
-<p align="center"><em>Figure 1. MLOps-Bench covers six ML lifecycle stages and end-to-end integration.</em></p>
+<p align="center"><em>Figure 1. Six stages of the MLOps lifecycle covered by MLOps-Bench.</em></p>
 
 The benchmark covers six core MLOps lifecycle stages plus end-to-end
 integration, so agents encounter contracts that span the systems surrounding a
