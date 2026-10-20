@@ -59,8 +59,10 @@ All totals are recorded in the [dataset manifest](dataset/mlops-bench/manifest.j
 
 ## 🔄 One benchmark, across the ML lifecycle
 
-<p align="center"><strong>📥 Data Pipelines</strong> &nbsp;→&nbsp; <strong>🧩 Feature Engineering</strong> &nbsp;→&nbsp; <strong>🧠 Model Training</strong> &nbsp;→&nbsp; <strong>🚀 Model Serving</strong></p>
-<p align="center"><strong>📈 Monitoring</strong> &nbsp;→&nbsp; <strong>⚙️ CI/CD &amp; Governance</strong> &nbsp;→&nbsp; <strong>🔗 End-to-End Integration</strong></p>
+<p align="center">
+  <img src="docs/images/mlops-bench-lifecycle.png" alt="Circular MLOps lifecycle: data pipelines, feature engineering, model training, model serving, monitoring, and CI/CD and governance." width="400">
+</p>
+<p align="center"><em>Figure 1. Six stages of the MLOps lifecycle covered by MLOps-Bench.</em></p>
 
 The benchmark covers six core MLOps lifecycle stages plus end-to-end
 integration, so agents encounter contracts that span the systems surrounding a
@@ -81,20 +83,6 @@ The task distribution below comes from the
 | CI/CD and governance | 31 | 93 | 123 |
 | End-to-end MLOps flow | 29 | 87 | 125 |
 | **Total** | **212** | **636** | **856** |
-
-## 🖼️ From repository evidence to behavioral evaluation
-
-<p align="center">
-  <img src="docs/images/mlops-bench-construction-and-evaluation.png" alt="MLOps-Bench construction and evaluation pipeline: repository evidence is converted into a task, oracle and buggy implementations, and behavioral tests before an agent patch is scored." width="100%">
-</p>
-<p align="center"><em>Figure 1. MLOps-Bench construction and evaluation pipeline. Source: companion manuscript.</em></p>
-
-A pinned public repository supplies the evidence for a task. Construction then
-creates the frozen editable workspace, task specification, oracle
-implementation, plausible buggy baseline, and behavioral tests. During an
-evaluation, an agent receives only the specification and editable workspace;
-the evaluator scores its patch with the F2P and P2P tests while withholding the
-oracle and other construction artifacts.
 
 ## 💡 One real task, from evidence to a release decision
 
@@ -207,7 +195,7 @@ production engineering task.
 | Base agent | GPT-5.5 | 16.9% | 47.9% |
 | Base agent | GPT-5.2 | 13.4% | 31.4% |
 
-<sub>Values reproduce Table 6 of the companion paper. The official proceedings link will be added when it is available.</sub>
+<sub>Values reproduce Table 6 of the <a href="https://arxiv.org/abs/2610.23506">paper</a>.</sub>
 
 ## 🧱 Work with a task
 
@@ -299,6 +287,7 @@ If you use MLOps-Bench, please cite the work:
   booktitle = {Empirical Methods in Natural Language Processing EMNLP 2026, Findings},
   year = {2026},
   publisher = {Association for Computational Linguistics},
+  url = {https://arxiv.org/abs/2610.23506},
   note = {To appear}
 }
 ```
